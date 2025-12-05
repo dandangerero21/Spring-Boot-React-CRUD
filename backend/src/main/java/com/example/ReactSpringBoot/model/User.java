@@ -27,5 +27,28 @@ public class User {
         this.message = message;
     }
 
-    // no need to write getters and setters because of lombok. lombok is cool.
+    // Explicit getters and setters to avoid Lombok annotation processing issues
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getMessage() {
+        return message;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
+    }
 }

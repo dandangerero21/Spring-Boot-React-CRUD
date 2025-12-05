@@ -1,0 +1,28 @@
+# Database Files (H2)
+data/
+*.db
+*.mv.db
+*.trace.db
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Package Lock (if you want to ignore root level)
+# package-lock.json
